@@ -1,0 +1,2 @@
+{.idea/ should be included in the gitignore after checkout }
+.claude/
