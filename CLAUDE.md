@@ -16,8 +16,9 @@ Make sure to clean up any example files and placeholders with actual content rel
 
 ## Structure
 
-- `docs/1a - issue.md` — Problem description, steps to reproduce, observed behavior, and related links. To be filled in by the user.
-- `docs/1b - findings.md` — Root cause analysis, possible solutions, and chosen solution. To be filled in by the agent.
+- `docs/{n}.1 - issue.md` — Problem description, steps to reproduce, observed behavior, and related links. To be filled in by the user.
+- `docs/{n}.2 - findings.md` — Root cause analysis, possible solutions, and chosen solution. To be filled in by the agent.
+- Multiple issue-findings pairs can exist (e.g. `1.1`, `1.2`, `2.1`, `2.2`, etc.).
 - `solution|workaround|helper` folders — Code for the implemented solution, workaround, or helper scripts. To be filled in by the agent.
 
 ## Tech
