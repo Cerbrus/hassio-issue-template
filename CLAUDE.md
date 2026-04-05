@@ -1,12 +1,14 @@
 # CLAUDE.md
 
-This is a template repository to help analyse and fix or work around issues with Home Assistant integrations.
-This Claude MD file should be updated by the agent to document the project overview, structure, technologies used, and any relevant notes.
-
-## Project Overview
+{ This is a template repository to help analyse and fix or work around issues with Home Assistant integrations. }
 
 `{}` placeholders are used in markdown files to indicate placeholders for project-specific content.
-These sections should be filled in, and kept up to date, by the agent as the project progresses.
+These sections should be maintained or removed by the agent as the project progresses. 
+This Claude MD file should be updated by the agent to document the project overview, structure, technologies used, and any relevant notes.
+Prefer node scripts for any code generation tasks, to ensure reproducibility and ease of updates.
+Add .idea run configurations for each solution or workaround, to allow easy execution and testing by the user.
+
+## Project Overview
 
 Prefer node scripts for any code generation tasks, to ensure reproducibility and ease of updates.
 Add .idea run configurations for each solution or workaround, to allow easy execution and testing by the user.
